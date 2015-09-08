@@ -29,9 +29,9 @@ h2 {
 }
 
 ul {
-    list-style-type
     position: fixed;
-    margin: -10px;
+    margin: 5.2em;
+    display: inline-block;
 }
 
 li {
@@ -42,11 +42,21 @@ li {
     color: #ffffff;
     border-radius: 5px 5px;
     background-color: #6B8FB2
+    margin: 5px;
 }
 
 p {
     font-family: Helvetica;
     font-size: 1em;
+}
+
+a:hover {
+  color: #F5FAFF;
+  font-weight: bold;
+}
+
+a:visited: {
+    color: #FF0000;
 }
 
 #footer {
@@ -57,13 +67,4 @@ p {
     border-bottom-right-radius: 15px;
     height: 90px;
     background-color: #A3D1FF;
-}
-
-#button p {
-    position: relative;
-    bottom: 10px;
-    font-size: 1em;
-    color: #ffffff;
-    background-color: #6B8FB2;
-    text-align: center;
 }
