@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Enumerable Methods</title>
+</head>
+<link rel="stylesheet" type="text/html" href="../stylesheets/default.css">
+<link rel="stylesheet" type="text/html" href="../stylesheets/blog.css">
+<body>
+<header>
+  <h2 style="text-align:center">CJ's Blog Posts</h2>
+  <div style="width:100%; height: 1px; background-color: gray"></div>
+</header>
+<section>
+  <h3>Enumerables</h3>
+<p>This week we learned more about enumerables.  Enumerables frequently involve something that can be counted.  Through this, you can sort, search, collect and more across a class of objects.  What makes it effective is the fact that it can do this across a set.  This makes it ideal for structures like arrays and hashes, which involve ordered groupings of things.</p>
+
+<p>.Map is a handy function for iteration.  A related function is .collect.  Here is a simple example of .map in action:<p>
+
+<code> words = [“this”, “that”, “here”] <br>
+words.map { |i| i.reverse}</code>
+
+<p>This returns:</p>
+
+<code> [“siht”, “taht”, “ereh”]</code>
+
+<p>Unlike a function like each, it returns the entire set (not just one string).  Keep in mind that .map is also ideal if you want to change the return value of your data.  If you’re looking to preserve your original information, .each is the way to go.</p>
+
+More soon, thanks for reading!
+
+  </section>
+
+<footer>
+  <div style="with:100%; height: 1px; background-color: gray"></div>
+  <p> CJ is still working on this site... </p>
+  <p><a href="joulain@gmail.com">joulain@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
