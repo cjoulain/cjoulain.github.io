@@ -1,14 +1,13 @@
-body {
-    background-color: #E0F0FF;
-    text-align: center;
-}
-
 #header {
     position: relative;
     top: -10px;
     background-color: #A3D1FF;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
+body {
+    background-color: #E0F0FF;
+    text-align: center;
 }
 
 ul {
@@ -34,6 +33,7 @@ a:hover {
   color: #F5FAFF;
   font-weight: bold;
 }
+
 
 #footer {
     clear: both;
