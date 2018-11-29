@@ -1,5 +1,7 @@
 Here's a kitty!
 
-https://github.com/cjoulain/cjoulain.github.io/blob/master/displeased.JPG
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
 
 More to follow.
