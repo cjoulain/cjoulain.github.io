@@ -2,6 +2,6 @@ Here's a kitty!
 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png
+[logo]: https://github.com/cjoulain/cjoulain.github.io/blob/master/displeased.JPG
 
 More to follow.
