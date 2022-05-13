@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: "Helvetica";
+}
+
+h1 {
+    padding: 5px;
+}
+
+.team-name {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+.devils-primary-color {
+    margin: 10px;
+}
+
+.devils-secondary-color {
+    margin: 10px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    margin: 10px
+}
