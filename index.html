@@ -9,16 +9,26 @@
 <body>
     <section>
         <h1>How do NHL teams approach accessibility?</h1>
-            <image src="https://images.vectorhq.com/images/thumbs/e63/nhl-logo-psd-441455.png" alt="National Hockey League" class="main-logo">
+
+            <image src="https://images.vectorhq.com/images/thumbs/e63/nhl-logo-psd-441455.png" alt="The National Hockey League logo is reminiscent of a shield. It features the words 'NHL' tilted downwards from upper left to lower right on a crest-shaped pattern that has five points on top and one at the bottom. The crest's interior is black with its outline and words shaded orange. This second iteration of the logo was designed in 1946." class="main-logo">
             <p>An analysis of franchise primary colors and logos.</p>
-            <p class="team-name"> NJ Devils:
+            <p class="nj-devils"> New Jersey Devils:
                 <input class="devils-primary-color" type="color" value="#CE1126" />
                 <input class="devils-secondary-color" type="color" value="#000000" />
             </p>
+            <p class="sj-sharks"> San Jose Sharks:
+                <svg class="sharks-primary-color" role="img" width="50" height="20" aria-label="The primary color for the San Jose Sharks is teal green.">
+                    <rect width="200" height="100" />
+                </svg>
+                <svg class="sharks-secondary-color" role="img" width="50" height="20" aria-label="The secondary color for the San Jose Sharks is a bright orange.">
+                    <rect width="200" height="100" />
+                </svg>
+            </p>
             <p class="to-do">TO DO:
                 <ul>
-                    <li>Add table with different team names, logos, and color hex codes</li>
-                    <li>Use WebAIM API to see if colors pass WCAG?</li>
+                    <li>Use semantic elements (main, article are a few options) to replace paragraphs</li>
+                    <li>Add table with different team names, logos, and color hex or RGB codes</li>
+                    <li>Stretch: Use WebAIM API to see if colors pass WCAG</li>
                 </ul>
             </p>
     </section>

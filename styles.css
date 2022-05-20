@@ -7,7 +7,21 @@ h1 {
     padding: 5px;
 }
 
-.team-name {
+.nj-devils {
+    text-transform: uppercase;
+}
+
+.sharks-primary-color {
+    margin-left: 10px;
+    fill:rgb(0,109,117);
+}
+
+.sharks-secondary-color {
+    margin-left: 20px;
+    fill:rgb(234,114,0);
+}
+
+.sj-sharks {
     text-transform: uppercase;
 }
 
